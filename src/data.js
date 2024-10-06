@@ -1,6 +1,7 @@
 import PROJECT1 from './assets/project1.png'
 import PROJECT2 from './assets/project2.png'
 import PROJECT3 from './assets/project3.png'
+import PROJECT4 from './assets/project4.png'
 
 const works = [
   {
@@ -24,8 +25,8 @@ const projects = [
     image: PROJECT1,
     overview:
       "Created an online wedding invitation card using React and AWS Lambda backend. It has RSVP submission and sending wish functionality. The data stored in dynamoDB",
-    github: "https://github.com/akkeyron/wedding-card-template/tree/master",
-    demo: "https://akkeyron.github.io/wedding-card-template/",
+    github: "https://github.com/programmingmy/wedding-card-template/tree/master",
+    demo: "https://programmingmy.github.io/wedding-card-template/",
     stacks: ["React", "AWS Lambda", "DynamoDB"]
   },
   {
@@ -34,19 +35,19 @@ const projects = [
     image: PROJECT2,
     overview:
       "Created a cat clicker game using React and AWS Lambda backend. It has a cat image appears randomly to click to increase score. The data stored in dynamoDB for leaderboard",
-    github: "https://github.com/akkeyron/cat-clicker",
-    demo: "https://akkeyron.github.io/cat-clicker/",
+    github: "https://github.com/programmingmy/cat-clicker",
+    demo: "https://programmingmy.github.io/cat-clicker/",
     stacks: ["React", "AWS Lambda", "DynamoDB"]
   },
   {
     id: 3,
-    title: "Telegram Bot Doa",
-    image: PROJECT3,
+    title: "Share Images App",
+    image: PROJECT4,
     overview:
-      "Developed a telegram bot help people understand Arabic Dua in Malay. It has broadcasting function to send message to all users that use the bot. The bot runs on Google Cloud.",
-    github: "https://github.com/akkeyron/Doa-Telegram-Bot",
-    demo: "https://t.me/DoaAmalanBot",
-    stacks: ["Google Cloud", "NodeJS", "FireStore"]
+      "Developed a web app to share images with other users. The app has a login and registration. The data stored in Supabase and Cloudflare R2.",
+    github: "https://sharepicapp.vercel.app/",
+    demo: "https://sharepicapp.vercel.app/",
+    stacks: ["React", "NextJS", "Supabase"]
   }
 ];
 
@@ -60,14 +61,14 @@ const skills = [
   },
   {
     title: "Cloud Services",
-    list: ["S3 Web Hosting", "AWS Lambda", "Servesless framework", "DynamoDB"],
+    list: ["S3", "AWS Lambda", "Azure AI Services", "DynamoDB", "Supabase"],
     description:
       "Harnessing the power of serverless computing, and leveraging event driven application. Experienced in building efficient, secure, and scalable serverless applications.",
     image: "./project-1.gif",
   },
   {
     title: "Others",
-    list: ["Azure DevOps Pipeline", "Agile Methodology", "Git"],
+    list: ["Azure DevOps CI/CD", "Agile Methodology", "Git"],
     description:
       "Experienced in agile work practice. Utilizing Github and Azure DevOps to configure efficient CI/CD pipelines that facilitate seamless integration and continuous delivery of software and applications.",
     image: "./project-1.gif",
